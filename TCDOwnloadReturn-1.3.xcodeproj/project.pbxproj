@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		126A6F8728E47DDF00DF17D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126A6F8628E47DDF00DF17D1 /* Assets.xcassets */; };
+		126A6F8A28E47DDF00DF17D1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126A6F8828E47DDF00DF17D1 /* MainMenu.xib */; };
+		126A6F8C28E47DDF00DF17D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6F8B28E47DDF00DF17D1 /* main.m */; };
+		126A6F9728E47DDF00DF17D1 /* TCDOwnloadReturn_1_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6F9628E47DDF00DF17D1 /* TCDOwnloadReturn_1_3Tests.m */; };
+		126A6FA128E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FA028E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITests.m */; };
+		126A6FA328E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FA228E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITestsLaunchTests.m */; };
+		126A6FB228E47EA000DF17D1 /* TCWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FB128E47EA000DF17D1 /* TCWindowController.m */; };
+		126A6FB628E47ED700DF17D1 /* TCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FB528E47ED700DF17D1 /* TCView.m */; };
+		126A6FBB28E47F1400DF17D1 /* TCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FBA28E47F1400DF17D1 /* TCTextView.m */; };
+		126A6FBE28E47F3D00DF17D1 /* TCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FBD28E47F3D00DF17D1 /* TCButton.m */; };
+		126A6FC328E4BC8400DF17D1 /* TCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FC228E4BC8400DF17D1 /* TCThread.m */; };
+		126A6FC628E4BCA400DF17D1 /* TCTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FC528E4BCA400DF17D1 /* TCTask.m */; };
+		126A6FC928E4C0B200DF17D1 /* TCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FC828E4C0B200DF17D1 /* TCWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		126A6F9328E47DDF00DF17D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 126A6F7828E47DDA00DF17D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 126A6F7F28E47DDA00DF17D1;
+			remoteInfo = "TCDOwnloadReturn-1.3";
+		};
+		126A6F9D28E47DDF00DF17D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 126A6F7828E47DDA00DF17D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 126A6F7F28E47DDA00DF17D1;
+			remoteInfo = "TCDOwnloadReturn-1.3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		126A6F8028E47DDA00DF17D1 /* TCDOwnloadReturn-1.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCDOwnloadReturn-1.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		126A6F8628E47DDF00DF17D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		126A6F8928E47DDF00DF17D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		126A6F8B28E47DDF00DF17D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		126A6F8D28E47DDF00DF17D1 /* TCDOwnloadReturn_1_3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCDOwnloadReturn_1_3.entitlements; sourceTree = "<group>"; };
+		126A6F9228E47DDF00DF17D1 /* TCDOwnloadReturn-1.3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCDOwnloadReturn-1.3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		126A6F9628E47DDF00DF17D1 /* TCDOwnloadReturn_1_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCDOwnloadReturn_1_3Tests.m; sourceTree = "<group>"; };
+		126A6F9C28E47DDF00DF17D1 /* TCDOwnloadReturn-1.3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCDOwnloadReturn-1.3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		126A6FA028E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCDOwnloadReturn_1_3UITests.m; sourceTree = "<group>"; };
+		126A6FA228E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCDOwnloadReturn_1_3UITestsLaunchTests.m; sourceTree = "<group>"; };
+		126A6FB028E47EA000DF17D1 /* TCWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCWindowController.h; sourceTree = "<group>"; };
+		126A6FB128E47EA000DF17D1 /* TCWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCWindowController.m; sourceTree = "<group>"; };
+		126A6FB428E47ED700DF17D1 /* TCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCView.h; sourceTree = "<group>"; };
+		126A6FB528E47ED700DF17D1 /* TCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCView.m; sourceTree = "<group>"; };
+		126A6FB928E47F1400DF17D1 /* TCTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTextView.h; sourceTree = "<group>"; };
+		126A6FBA28E47F1400DF17D1 /* TCTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTextView.m; sourceTree = "<group>"; };
+		126A6FBC28E47F3D00DF17D1 /* TCButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCButton.h; sourceTree = "<group>"; };
+		126A6FBD28E47F3D00DF17D1 /* TCButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCButton.m; sourceTree = "<group>"; };
+		126A6FC128E4BC8400DF17D1 /* TCThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCThread.h; sourceTree = "<group>"; };
+		126A6FC228E4BC8400DF17D1 /* TCThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCThread.m; sourceTree = "<group>"; };
+		126A6FC428E4BCA400DF17D1 /* TCTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTask.h; sourceTree = "<group>"; };
+		126A6FC528E4BCA400DF17D1 /* TCTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTask.m; sourceTree = "<group>"; };
+		126A6FC728E4C0B200DF17D1 /* TCWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCWindow.h; sourceTree = "<group>"; };
+		126A6FC828E4C0B200DF17D1 /* TCWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		126A6F7D28E47DDA00DF17D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126A6F8F28E47DDF00DF17D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126A6F9928E47DDF00DF17D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126A6F7728E47DDA00DF17D1 = {
+			isa = PBXGroup;
+			children = (
+				126A6F8228E47DDA00DF17D1 /* TCDOwnloadReturn-1.3 */,
+				126A6F9528E47DDF00DF17D1 /* TCDOwnloadReturn-1.3Tests */,
+				126A6F9F28E47DDF00DF17D1 /* TCDOwnloadReturn-1.3UITests */,
+				126A6F8128E47DDA00DF17D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		126A6F8128E47DDA00DF17D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				126A6F8028E47DDA00DF17D1 /* TCDOwnloadReturn-1.3.app */,
+				126A6F9228E47DDF00DF17D1 /* TCDOwnloadReturn-1.3Tests.xctest */,
+				126A6F9C28E47DDF00DF17D1 /* TCDOwnloadReturn-1.3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		126A6F8228E47DDA00DF17D1 /* TCDOwnloadReturn-1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				126A6F8B28E47DDF00DF17D1 /* main.m */,
+				126A6FAF28E47E5000DF17D1 /* TCWindowController */,
+				126A6F8628E47DDF00DF17D1 /* Assets.xcassets */,
+				126A6F8828E47DDF00DF17D1 /* MainMenu.xib */,
+				126A6F8D28E47DDF00DF17D1 /* TCDOwnloadReturn_1_3.entitlements */,
+			);
+			path = "TCDOwnloadReturn-1.3";
+			sourceTree = "<group>";
+		};
+		126A6F9528E47DDF00DF17D1 /* TCDOwnloadReturn-1.3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				126A6F9628E47DDF00DF17D1 /* TCDOwnloadReturn_1_3Tests.m */,
+			);
+			path = "TCDOwnloadReturn-1.3Tests";
+			sourceTree = "<group>";
+		};
+		126A6F9F28E47DDF00DF17D1 /* TCDOwnloadReturn-1.3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				126A6FA028E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITests.m */,
+				126A6FA228E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITestsLaunchTests.m */,
+			);
+			path = "TCDOwnloadReturn-1.3UITests";
+			sourceTree = "<group>";
+		};
+		126A6FAF28E47E5000DF17D1 /* TCWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				126A6FB028E47EA000DF17D1 /* TCWindowController.h */,
+				126A6FB128E47EA000DF17D1 /* TCWindowController.m */,
+				126A6FC728E4C0B200DF17D1 /* TCWindow.h */,
+				126A6FC828E4C0B200DF17D1 /* TCWindow.m */,
+				126A6FB328E47EB200DF17D1 /* TCView */,
+			);
+			path = TCWindowController;
+			sourceTree = "<group>";
+		};
+		126A6FB328E47EB200DF17D1 /* TCView */ = {
+			isa = PBXGroup;
+			children = (
+				126A6FB428E47ED700DF17D1 /* TCView.h */,
+				126A6FB528E47ED700DF17D1 /* TCView.m */,
+				126A6FB828E47EF700DF17D1 /* TCTextView */,
+				126A6FB728E47EEB00DF17D1 /* TCButton */,
+				126A6FC028E4BC6600DF17D1 /* TCTask */,
+				126A6FBF28E4BC5800DF17D1 /* TCThread */,
+			);
+			path = TCView;
+			sourceTree = "<group>";
+		};
+		126A6FB728E47EEB00DF17D1 /* TCButton */ = {
+			isa = PBXGroup;
+			children = (
+				126A6FBC28E47F3D00DF17D1 /* TCButton.h */,
+				126A6FBD28E47F3D00DF17D1 /* TCButton.m */,
+			);
+			path = TCButton;
+			sourceTree = "<group>";
+		};
+		126A6FB828E47EF700DF17D1 /* TCTextView */ = {
+			isa = PBXGroup;
+			children = (
+				126A6FB928E47F1400DF17D1 /* TCTextView.h */,
+				126A6FBA28E47F1400DF17D1 /* TCTextView.m */,
+			);
+			path = TCTextView;
+			sourceTree = "<group>";
+		};
+		126A6FBF28E4BC5800DF17D1 /* TCThread */ = {
+			isa = PBXGroup;
+			children = (
+				126A6FC128E4BC8400DF17D1 /* TCThread.h */,
+				126A6FC228E4BC8400DF17D1 /* TCThread.m */,
+			);
+			path = TCThread;
+			sourceTree = "<group>";
+		};
+		126A6FC028E4BC6600DF17D1 /* TCTask */ = {
+			isa = PBXGroup;
+			children = (
+				126A6FC428E4BCA400DF17D1 /* TCTask.h */,
+				126A6FC528E4BCA400DF17D1 /* TCTask.m */,
+			);
+			path = TCTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		126A6F7F28E47DDA00DF17D1 /* TCDOwnloadReturn-1.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126A6FA628E47DDF00DF17D1 /* Build configuration list for PBXNativeTarget "TCDOwnloadReturn-1.3" */;
+			buildPhases = (
+				126A6F7C28E47DDA00DF17D1 /* Sources */,
+				126A6F7D28E47DDA00DF17D1 /* Frameworks */,
+				126A6F7E28E47DDA00DF17D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCDOwnloadReturn-1.3";
+			productName = "TCDOwnloadReturn-1.3";
+			productReference = 126A6F8028E47DDA00DF17D1 /* TCDOwnloadReturn-1.3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		126A6F9128E47DDF00DF17D1 /* TCDOwnloadReturn-1.3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126A6FA928E47DDF00DF17D1 /* Build configuration list for PBXNativeTarget "TCDOwnloadReturn-1.3Tests" */;
+			buildPhases = (
+				126A6F8E28E47DDF00DF17D1 /* Sources */,
+				126A6F8F28E47DDF00DF17D1 /* Frameworks */,
+				126A6F9028E47DDF00DF17D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				126A6F9428E47DDF00DF17D1 /* PBXTargetDependency */,
+			);
+			name = "TCDOwnloadReturn-1.3Tests";
+			productName = "TCDOwnloadReturn-1.3Tests";
+			productReference = 126A6F9228E47DDF00DF17D1 /* TCDOwnloadReturn-1.3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		126A6F9B28E47DDF00DF17D1 /* TCDOwnloadReturn-1.3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126A6FAC28E47DDF00DF17D1 /* Build configuration list for PBXNativeTarget "TCDOwnloadReturn-1.3UITests" */;
+			buildPhases = (
+				126A6F9828E47DDF00DF17D1 /* Sources */,
+				126A6F9928E47DDF00DF17D1 /* Frameworks */,
+				126A6F9A28E47DDF00DF17D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				126A6F9E28E47DDF00DF17D1 /* PBXTargetDependency */,
+			);
+			name = "TCDOwnloadReturn-1.3UITests";
+			productName = "TCDOwnloadReturn-1.3UITests";
+			productReference = 126A6F9C28E47DDF00DF17D1 /* TCDOwnloadReturn-1.3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		126A6F7828E47DDA00DF17D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					126A6F7F28E47DDA00DF17D1 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					126A6F9128E47DDF00DF17D1 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 126A6F7F28E47DDA00DF17D1;
+					};
+					126A6F9B28E47DDF00DF17D1 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 126A6F7F28E47DDA00DF17D1;
+					};
+				};
+			};
+			buildConfigurationList = 126A6F7B28E47DDA00DF17D1 /* Build configuration list for PBXProject "TCDOwnloadReturn-1.3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 126A6F7728E47DDA00DF17D1;
+			productRefGroup = 126A6F8128E47DDA00DF17D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				126A6F7F28E47DDA00DF17D1 /* TCDOwnloadReturn-1.3 */,
+				126A6F9128E47DDF00DF17D1 /* TCDOwnloadReturn-1.3Tests */,
+				126A6F9B28E47DDF00DF17D1 /* TCDOwnloadReturn-1.3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		126A6F7E28E47DDA00DF17D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126A6F8728E47DDF00DF17D1 /* Assets.xcassets in Resources */,
+				126A6F8A28E47DDF00DF17D1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126A6F9028E47DDF00DF17D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126A6F9A28E47DDF00DF17D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		126A6F7C28E47DDA00DF17D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126A6FC328E4BC8400DF17D1 /* TCThread.m in Sources */,
+				126A6FB228E47EA000DF17D1 /* TCWindowController.m in Sources */,
+				126A6FBE28E47F3D00DF17D1 /* TCButton.m in Sources */,
+				126A6F8C28E47DDF00DF17D1 /* main.m in Sources */,
+				126A6FC928E4C0B200DF17D1 /* TCWindow.m in Sources */,
+				126A6FBB28E47F1400DF17D1 /* TCTextView.m in Sources */,
+				126A6FB628E47ED700DF17D1 /* TCView.m in Sources */,
+				126A6FC628E4BCA400DF17D1 /* TCTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126A6F8E28E47DDF00DF17D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126A6F9728E47DDF00DF17D1 /* TCDOwnloadReturn_1_3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126A6F9828E47DDF00DF17D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126A6FA128E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITests.m in Sources */,
+				126A6FA328E47DDF00DF17D1 /* TCDOwnloadReturn_1_3UITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		126A6F9428E47DDF00DF17D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 126A6F7F28E47DDA00DF17D1 /* TCDOwnloadReturn-1.3 */;
+			targetProxy = 126A6F9328E47DDF00DF17D1 /* PBXContainerItemProxy */;
+		};
+		126A6F9E28E47DDF00DF17D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 126A6F7F28E47DDA00DF17D1 /* TCDOwnloadReturn-1.3 */;
+			targetProxy = 126A6F9D28E47DDF00DF17D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		126A6F8828E47DDF00DF17D1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126A6F8928E47DDF00DF17D1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		126A6FA428E47DDF00DF17D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		126A6FA528E47DDF00DF17D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		126A6FA728E47DDF00DF17D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TCDOwnloadReturn-1.3/TCDOwnloadReturn_1_3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDOwnloadReturn-1-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		126A6FA828E47DDF00DF17D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TCDOwnloadReturn-1.3/TCDOwnloadReturn_1_3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDOwnloadReturn-1-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		126A6FAA28E47DDF00DF17D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDOwnloadReturn-1-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCDOwnloadReturn-1.3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCDOwnloadReturn-1.3";
+			};
+			name = Debug;
+		};
+		126A6FAB28E47DDF00DF17D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDOwnloadReturn-1-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCDOwnloadReturn-1.3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCDOwnloadReturn-1.3";
+			};
+			name = Release;
+		};
+		126A6FAD28E47DDF00DF17D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDOwnloadReturn-1-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "TCDOwnloadReturn-1.3";
+			};
+			name = Debug;
+		};
+		126A6FAE28E47DDF00DF17D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDOwnloadReturn-1-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "TCDOwnloadReturn-1.3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126A6F7B28E47DDA00DF17D1 /* Build configuration list for PBXProject "TCDOwnloadReturn-1.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126A6FA428E47DDF00DF17D1 /* Debug */,
+				126A6FA528E47DDF00DF17D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126A6FA628E47DDF00DF17D1 /* Build configuration list for PBXNativeTarget "TCDOwnloadReturn-1.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126A6FA728E47DDF00DF17D1 /* Debug */,
+				126A6FA828E47DDF00DF17D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126A6FA928E47DDF00DF17D1 /* Build configuration list for PBXNativeTarget "TCDOwnloadReturn-1.3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126A6FAA28E47DDF00DF17D1 /* Debug */,
+				126A6FAB28E47DDF00DF17D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126A6FAC28E47DDF00DF17D1 /* Build configuration list for PBXNativeTarget "TCDOwnloadReturn-1.3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126A6FAD28E47DDF00DF17D1 /* Debug */,
+				126A6FAE28E47DDF00DF17D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 126A6F7828E47DDA00DF17D1 /* Project object */;
+}
