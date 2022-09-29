@@ -17,7 +17,7 @@
 
 -(instancetype)initWithFrame:(NSRect)frameRect {
     if (self = [super initWithFrame:frameRect]) {
-        
+        NSLog(@"Initializing class %@", [self class]);
     }
     return self;
 }

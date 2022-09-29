@@ -9,6 +9,13 @@
 
 @implementation TCTextView
 
+- (instancetype)initWithFrame:(NSRect)frameRect {
+    if (self = [super initWithFrame:frameRect]) {
+        self.font = [NSFont systemFontOfSize:12.0];
+    }
+    return self;
+}
+
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
     

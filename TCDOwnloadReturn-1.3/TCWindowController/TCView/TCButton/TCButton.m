@@ -15,4 +15,14 @@
     // Drawing code here.
 }
 
+- (instancetype)initWithRect:(NSRect)rect
+{
+    if (self = [super init]) {
+        NSLog(@"class %@ in method %s", self.class, sel_getName(_cmd));
+        [self setFrame: rect];
+        self.bezelStyle = NSBezelStyleRounded;
+    }
+    return self;
+}
+
 @end

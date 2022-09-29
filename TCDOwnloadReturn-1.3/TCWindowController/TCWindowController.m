@@ -9,9 +9,17 @@
 
 @implementation TCWindowController
 
-#pragma mark - Inizializzazioni e settaggi 
+#pragma mark - Inizializzazioni e settaggi
+
+- (instancetype)init {
+    if (self = [super init]) {
+        NSLog(@"Initializing class %@", [self class]);
+    }
+    return self;
+}
 
 - (TCView *)mainView {
+    NSLog(@"Call to %s", sel_getName(_cmd));
     [_mainView setWantsLayer:YES];
     [_mainView setNeedsDisplay:YES];
     _mainView.layer.backgroundColor = [[NSColor yellowColor] CGColor];
@@ -19,6 +27,7 @@
 }
 
 - (NSSize)displayPixelSize {
+    NSLog(@"Call to %s", sel_getName(_cmd));
     NSScreen *screen = [NSScreen mainScreen];
     NSDictionary *description = [screen deviceDescription];
     NSSize displayPixelSize = [[description objectForKey:NSDeviceSize] sizeValue];

@@ -20,6 +20,8 @@
 		126A6FC328E4BC8400DF17D1 /* TCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FC228E4BC8400DF17D1 /* TCThread.m */; };
 		126A6FC628E4BCA400DF17D1 /* TCTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FC528E4BCA400DF17D1 /* TCTask.m */; };
 		126A6FC928E4C0B200DF17D1 /* TCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FC828E4C0B200DF17D1 /* TCWindow.m */; };
+		126A6FCF28E5EDC000DF17D1 /* Interprete-1.1.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FCE28E5EDC000DF17D1 /* Interprete-1.1.m */; };
+		126A6FD228E61FF500DF17D1 /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A6FD128E61FF500DF17D1 /* TCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		126A6FC528E4BCA400DF17D1 /* TCTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTask.m; sourceTree = "<group>"; };
 		126A6FC728E4C0B200DF17D1 /* TCWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCWindow.h; sourceTree = "<group>"; };
 		126A6FC828E4C0B200DF17D1 /* TCWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCWindow.m; sourceTree = "<group>"; };
+		126A6FCD28E5EDC000DF17D1 /* Interprete-1.1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Interprete-1.1.h"; sourceTree = "<group>"; };
+		126A6FCE28E5EDC000DF17D1 /* Interprete-1.1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Interprete-1.1.m"; sourceTree = "<group>"; };
+		126A6FD028E61FF500DF17D1 /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
+		126A6FD128E61FF500DF17D1 /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,12 +161,15 @@
 		126A6FB328E47EB200DF17D1 /* TCView */ = {
 			isa = PBXGroup;
 			children = (
+				126A6FD028E61FF500DF17D1 /* TCViewController.h */,
+				126A6FD128E61FF500DF17D1 /* TCViewController.m */,
 				126A6FB428E47ED700DF17D1 /* TCView.h */,
 				126A6FB528E47ED700DF17D1 /* TCView.m */,
 				126A6FB828E47EF700DF17D1 /* TCTextView */,
 				126A6FB728E47EEB00DF17D1 /* TCButton */,
 				126A6FC028E4BC6600DF17D1 /* TCTask */,
 				126A6FBF28E4BC5800DF17D1 /* TCThread */,
+				126A6FCC28E5ED8700DF17D1 /* Interprete-1.1 */,
 			);
 			path = TCView;
 			sourceTree = "<group>";
@@ -199,6 +208,15 @@
 				126A6FC528E4BCA400DF17D1 /* TCTask.m */,
 			);
 			path = TCTask;
+			sourceTree = "<group>";
+		};
+		126A6FCC28E5ED8700DF17D1 /* Interprete-1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				126A6FCD28E5EDC000DF17D1 /* Interprete-1.1.h */,
+				126A6FCE28E5EDC000DF17D1 /* Interprete-1.1.m */,
+			);
+			path = "Interprete-1.1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				126A6FC328E4BC8400DF17D1 /* TCThread.m in Sources */,
+				126A6FD228E61FF500DF17D1 /* TCViewController.m in Sources */,
 				126A6FB228E47EA000DF17D1 /* TCWindowController.m in Sources */,
+				126A6FCF28E5EDC000DF17D1 /* Interprete-1.1.m in Sources */,
 				126A6FBE28E47F3D00DF17D1 /* TCButton.m in Sources */,
 				126A6F8C28E47DDF00DF17D1 /* main.m in Sources */,
 				126A6FC928E4C0B200DF17D1 /* TCWindow.m in Sources */,

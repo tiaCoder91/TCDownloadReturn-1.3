@@ -17,6 +17,7 @@
                 backing:NSBackingStoreBuffered
                 defer:NO
         ];
+        NSLog(@"Initializing class %@", [self class]);
     }
     return self;
 }

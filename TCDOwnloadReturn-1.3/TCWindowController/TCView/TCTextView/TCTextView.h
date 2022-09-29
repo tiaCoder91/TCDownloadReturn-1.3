@@ -8,6 +8,6 @@
 #import <Cocoa/Cocoa.h>
 
 @interface TCTextView : NSTextView
-
+@property (nonatomic) int myId;
 @end
 
