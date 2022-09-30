@@ -49,7 +49,7 @@ int main(int argc, const char * argv[])
         NSRect textViewLRect = NSMakeRect(
                10,
                controller.window.frame.size.height-30-10-controller.window.frame.size.height/100*12,
-               controller.window.frame.size.width/100*45,
+               controller.window.frame.size.width/100*50-20,
                controller.window.frame.size.height/100*12
         );
         
@@ -64,9 +64,9 @@ int main(int argc, const char * argv[])
 #pragma mark - TCTextView ( textViewR )
         
         NSRect textViewRRect = NSMakeRect(
-               controller.window.frame.size.width-controller.window.frame.size.width/100*45-10,
+               controller.window.frame.size.width-controller.window.frame.size.width/100*50,
                controller.window.frame.size.height-30-10-controller.window.frame.size.height/100*12,
-               controller.window.frame.size.width/100*45,
+               controller.window.frame.size.width/100*50-10,
                controller.window.frame.size.height/100*12
         );
         
@@ -104,11 +104,9 @@ int main(int argc, const char * argv[])
         TCThread *thread = [[TCThread alloc] initWithController:controller];
         thread.myId = 1;
         
-        [thread myThread: ^{
-            [controller.ok setTarget: thread];
-            [controller.ok setAction: @selector(okButton)];
-            [controller.mainView addSubview: controller.ok];
-        }];
+        [controller.ok setTarget: thread];
+        [controller.ok setAction: @selector(okButton)];
+        [controller.mainView addSubview: controller.ok];
         
         [app run];
     }

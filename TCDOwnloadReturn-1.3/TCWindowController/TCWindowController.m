@@ -48,10 +48,10 @@
     NSPoint buttonOrigin = NSMakePoint(window.frame.size.width-90-10, 10);
     [_ok setFrameOrigin: buttonOrigin];
     
-    [_textViewL setFrameSize: NSMakeSize(window.frame.size.width/100*45, _textViewL.frame.size.height)];
+    [_textViewL setFrameSize: NSMakeSize(window.frame.size.width/100*50-20, _textViewL.frame.size.height)];
     [_textViewL setFrameOrigin: NSMakePoint(10, window.frame.size.height-30-10-_textViewL.frame.size.height)];
     
-    [_textViewR setFrameSize: NSMakeSize(window.frame.size.width/100*45, _textViewR.frame.size.height)];
+    [_textViewR setFrameSize: NSMakeSize(window.frame.size.width/100*50-10, _textViewR.frame.size.height)];
     [_textViewR setFrameOrigin: NSMakePoint(window.frame.size.width-_textViewR.frame.size.width-10, window.frame.size.height-30-10-_textViewR.frame.size.height)];
     
 }

@@ -8,6 +8,6 @@
 #import <Cocoa/Cocoa.h>
 
 @interface TCTask : NSTask
-
+- (void)downloadFromArray:(NSArray *)array;
 @end
 

@@ -24,12 +24,13 @@
     NSLog(@"_controller = %@", text.string);
     
     if (text.myId == 1) {
-        [text setFrameSize: NSMakeSize(_controller.window.frame.size.width/100*45, text.frame.size.height)];
+        [text setFrameSize: NSMakeSize(_controller.window.frame.size.width/100*50-20, text.frame.size.height)];
         [text setFrameOrigin: NSMakePoint(10, _controller.window.frame.size.height-30-10-text.frame.size.height)];
     } else if (text.myId == 2) {
-        [text setFrameSize: NSMakeSize(_controller.window.frame.size.width/100*45, text.frame.size.height)];
+        [text setFrameSize: NSMakeSize(_controller.window.frame.size.width/100*50-10, text.frame.size.height)];
         [text setFrameOrigin: NSMakePoint(_controller.window.frame.size.width-text.frame.size.width-10, _controller.window.frame.size.height-30-10-text.frame.size.height)];
     }
+    
 }
 
 @end

@@ -13,6 +13,7 @@
 @property (nonatomic, strong) TCView *mainView;
 @property (nonatomic, strong) TCTextView *textViewL, *textViewR;
 @property (nonatomic, strong) TCButton *ok, *cancel;
+@property (nonatomic, strong) TCTask *task;
 - (NSSize)displayPixelSize;
 @end
 
