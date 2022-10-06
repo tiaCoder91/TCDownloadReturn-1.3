@@ -26,7 +26,6 @@
 
 
 - (void)callScript {
-    
     for (int i = 0; i<10; i++) {
         dispatch_queue_t miaGlobalQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
         dispatch_semaphore_t semaphore = dispatch_semaphore_create(1);

@@ -108,6 +108,15 @@ int main(int argc, const char * argv[])
         [controller.ok setAction: @selector(okButton)];
         [controller.mainView addSubview: controller.ok];
         
+        NSArray *itemCombo = @[@"mp3", @"mp4", @"m4a", @"webp", @"jpeg"];
+        NSComboBox *comboBox = [[NSComboBox alloc] initWithFrame:NSMakeRect(10, 100, 100, 25)];
+        comboBox.hasVerticalScroller = YES;
+        comboBox.numberOfVisibleItems = 3;
+        [comboBox addItemsWithObjectValues:itemCombo];
+        [comboBox setDelegate: viewController];
+        
+        [controller.mainView addSubview: comboBox];
+        
         [app run];
     }
     return 0;

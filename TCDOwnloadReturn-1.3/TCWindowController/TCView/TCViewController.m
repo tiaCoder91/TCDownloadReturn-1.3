@@ -16,6 +16,13 @@
     return self;
 }
 
+- (void)comboBoxSelectionDidChange:(NSNotification *)notification {
+    NSComboBox *box = [notification object];
+    
+    NSLog(@"last = %@", box.objectValue);
+    NSLog(@"selected = %@", box.objectValueOfSelectedItem);
+}
+
 - (void)textDidChange:(NSNotification *)notification {
     
     TCTextView *text = [notification object];

@@ -39,6 +39,7 @@
 - (void)windowDidResize:(NSNotification *)notification {
 
     TCWindow *window = notification.object;
+    NSLog(@"window size = %f : width - %f : height", window.frame.size.width, window.frame.size.height);
     
 // TODO: Modifiche posizione e misure degli oggetti
     

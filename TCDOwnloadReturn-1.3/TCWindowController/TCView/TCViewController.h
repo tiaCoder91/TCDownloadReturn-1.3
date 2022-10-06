@@ -7,7 +7,7 @@
 
 #import "../TCWindowController.h"
 
-@interface TCViewController : NSObject <NSTextViewDelegate>
+@interface TCViewController : NSObject <NSTextViewDelegate, NSComboBoxDelegate>
 @property (nonatomic, strong) TCWindowController *controller;
 @end
 
